@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"LINK_TO_TUTORIALS",
+  "name":"LINK_TO_TUTORIALS",
+  "parent":{
+    "name":"SpaceRocks_GAME",
+    "path":"SpaceRocks_GAME.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
