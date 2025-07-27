@@ -21,8 +21,11 @@ if keyboard_check(vk_right)
 if (speed > 10) speed = 10;
 
 move_wrap(true, true, 0);
-
-if keyboard_check(vk_space)
+//ONE BULLET SHOT AT A TIME 
+if keyboard_check_pressed(vk_space)
 {
-	instance_create_layer(x, y, "Instances", Obj_bullet);
+    if (!instance_exists(Obj_bullet)) // Only create a bullet if none exist
+    {
+        instance_create_layer(x, y, "Instances", Obj_bullet);
+    }
 }
